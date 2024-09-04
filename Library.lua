@@ -1677,7 +1677,7 @@ do
 			-- // Returning
 			Section.Page.Sections[#Section.Page.Sections + 1] = Section;
 			Section.ActualSections[1]:Turn(true)
-			return table.unpack(Section.ActualSections)
+			return Section.ActualSections
 		end
 		--
 		function Sections:Toggle(Properties)
